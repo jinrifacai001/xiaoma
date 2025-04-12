@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小马宝莉</title>
+  </head>
+  <body>
+    <div class="box">
+      <img src="马.jpg" alt="圆形图片" class="circle-image" />
+      <p class="text">你怎么这么可爱？</p>
+      <hr class="divider" />
+      <div class="box-container"> 
+        <div class="box1">
+          <div class="box01">
+          <img src="蛋糕.png" alt="" class="shiwu_2" />
+          <p class="text_2">
+            3月31日 晚 18:44<br>
+            你说你爱吃甜食<br>
+            想把所有糖都给你<br>
+            当然<br>
+            如果你在我身边<br>
+            我会烤小蛋糕给你吃
+          </p>
+        </div>
+        <div class="box02">        
+          <p class="text_3">
+          4月4日 晚 20:45<br>
+          你去买炸洋芋<br>
+          虽然我中午刚吃<br>
+          还是想吃你碗里的
+          </p>
+          <img src="洋芋.png" alt="" class="shiwu_1" /></div>
+      </div>
+        <div class="box2">
+          <img src="box2.jpg" alt="" class="pingtu">
+          <p class="text_4">
+          4月4日 早 06:43<br>
+          你去看云海日出<br>
+          雾好大<br>
+          我拙劣的按照攻略安慰你<br>
+          雾散了<br>
+          晨曦初照<br>
+          阳光透过云层<br>
+          美的让人窒息<br>
+          早前的坏天气似乎只是时间的考验<br>
+          时间，在证明一切都是值得的<br>
+          </p>
+        </div>
+        <div class="box3">
+          <p class="text_5">
+          虽然我不玩游戏<br>
+          但有认真问朋友这代表什么<br>
+           “代表他打游戏比我牛”<br>
+          哥哥，最厉害
+        </p>
+        <img src="游戏.jpg" alt="" class="you"/>
+        
+        </div>
+      </div>
+     <a href="王霁.html" style="text-decoration: none; 
+     color:#d47c99; font-size: 1vw; 
+     position: absolute;
+      bottom: 10px;
+       right: 10px;">三分钟热度，有三分钟收获
+       </a>
+       <audio controls="controls" loop="loop" autoplay>
+        <source src="有你在.mp3" type="audio/mp3">
+       </audio>
+    <style>
+      body {
+        background: linear-gradient(
+          to right,
+          #d47c99,
+          #eea0b2,
+          #f9c9d6,
+          #cbe0e9,
+          #97c8e5,
+          #5ea0d0
+        );
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .box{
+        width: calc(100vw - 40px);
+        height: calc(100vh - 40px);
+        padding: 5px;
+        box-sizing: border-box;
+        margin: 20px;
+        border-radius: 20px;
+        background: rgb(243, 241, 241, 0.5);
+        position: relative;
+      }
+      .circle-image {
+       max-width: 10%; 
+        max-height: 10%;
+        width: auto; 
+        height: auto; 
+        display: block; 
+        margin: 0 auto;
+        object-fit: cover;
+        opacity: 1;
+        border-radius: 50%;
+      }
+      .text {
+        margin-top: 10px;
+        font-size: 1vw;
+        color: #333;
+        text-align: center;
+        opacity: 1;
+      }
+      .divider {
+        width: 90%;
+        height: 1px;
+        background-color: #01010a63;
+        margin: 5px auto;
+        
+      }
+      .box-container {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: stretch;
+        width: 100%; 
+        height: 80%;
+        margin-top: 20px;
+      }
+
+      .box1,
+      .box2,
+      .box3 {
+        width: 30%; 
+        height: 95%;
+        background-color: #f8f4f5;
+        position: relative;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5px;
+        box-sizing: border-box;
+        border-radius: 20px;
+      }
+      .box2{  display: flex; 
+       justify-content: center; 
+       align-items: center;}
+       .box3{  
+        display: flex; 
+       justify-content: center; 
+       align-items: center;}
+      .box01{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 0 0 2vh 0;
+      } 
+      .box02{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        right: 2vw;
+        margin-left: 2vw; 
+        transform: translateX(2vw);
+      }
+      .shiwu_2 {
+        width: 40%; 
+        height: auto; 
+        object-fit: contain; 
+        position: relative;
+        top: 2vh; 
+        left: 2vw; 
+        margin-bottom: 2vh;
+      }
+
+      .text_2 {
+        position: absolute;
+        top: 5vh; 
+        right: 5vw; 
+        font-size: 1vw;
+        color: #333;
+        text-align: center;
+      }
+      .text_3 {
+        font-size: 1vw;
+        color: #333;
+        text-align: left;
+        margin-bottom: 2vh; 
+        text-align: center;
+        margin-top: 2vh;
+        transform: translateY(2vh); 
+
+      }
+        .shiwu_1 {
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+        margin-left: 2vw;
+        top: 2vh; 
+        right:2vw; 
+        margin-bottom: 2vh
+      }
+      .pingtu{
+        width: 45%; 
+        height: auto; 
+        object-fit: contain; 
+        position: relative;
+        top: 1vh;
+        margin-bottom: 1vh;
+      }
+      .text_4 {
+        position: relative;
+        top: 1vh; 
+        right: 1vw; 
+        font-size: 1vw;
+        color: #333;
+        text-align: center;
+      }
+       .text_5 {
+        position: relative;
+        top: 1vh; 
+        right: 1vw; 
+        font-size: 1vw;
+        color: #333;
+        text-align: center;
+      }
+      .you {
+        width: 60%;
+        height: auto;
+        object-fit: contain;
+        position: relative;
+        top: 2vh; 
+        bottom: 2vh;
+        margin-bottom: 2vh;
+      }
+      audio {
+  position: absolute; 
+  bottom: 1vh; 
+  left: 1vw; 
+}
+    </style>
+  </body>
+</html>

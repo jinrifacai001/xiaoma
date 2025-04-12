@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>王霁</title>
+  </head>
+  <body> 
+    <div class="box">
+      <img src="王.jpg" alt="圆形图片" class="circle-image" />
+      <p class="text">好喜欢你！</p>
+      <hr class="divider" />
+      <img src="开心.png" alt=""class="happy" />
+      <div class="text1">
+        <p>喜欢让我变得更好的人<br>
+           喜欢和我三观契合的人<br>           
+           喜欢能让我坦然做自己的人<br> 
+           喜欢关心我在乎我的人<br>
+           喜欢接受我别扭性格的人<br> 
+           喜欢在我言不由衷紧急避险时拉紧我的人<br>
+           喜欢你<br>
+           每天多一点<br>
+           三分钟热度，有三分钟收获<br>
+           如果你只爱我三分钟<br>
+           我要看三分钟的绚丽烟花
+        </p>
+      </div>
+      <img src="小黄鸭.png" alt=""class="yellow" />
+      <audio controls="controls" loop="loop">
+        <source src="好喜欢你.mp3" type="audio/mp3" autoplay>
+       </audio>
+    <style>
+       body {
+        background: linear-gradient(
+          to right,
+          #d47c99,
+          #eea0b2,
+          #f9c9d6,
+          #cbe0e9,
+          #97c8e5,
+          #5ea0d0
+        );
+        margin: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .box {
+        width: calc(100vw - 40px);
+        height: calc(100vh - 40px);
+        padding: 5px;
+        box-sizing: border-box;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 20px;
+        background: rgb(243, 241, 241, 0.5);
+        position: relative;
+      }
+      .circle-image {
+        margin-bottom: 10px;
+        padding: 0;
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        object-fit: cover;
+        opacity: 1;
+      } .text {
+        margin-top: 10px;
+        font-size: 1vw;
+        color: #333;
+        text-align: center;
+        opacity: 1;
+      }
+      .divider {
+        width: 90%;
+        height: 1px;
+        background-color: #01010a63;
+        margin: 5px;
+      }
+      .happy {
+        max-width: 40%; 
+        height: auto; 
+        object-fit: contain; 
+        position: absolute;
+        bottom: 1vh;
+        left: 1vw;
+        margin: 1vh;
+        margin-right: auto;
+      }
+      .yellow {
+        max-width: 50%; 
+        height: auto; 
+        object-fit: contain; 
+        position: absolute;
+        bottom: 1vh;
+        right: 1vw;
+        margin-bottom: 1vh;
+      }
+      .text1 {
+        position: relative;
+        top: 9vh; 
+        right: 1vw; 
+        font-size: 120%;
+        color: #333;
+        text-align: center;
+      }
+      audio {
+  position: absolute; 
+  bottom: 1vh; 
+  right: 1vw; 
+}
+    </style>
+    </body>
+</html>
